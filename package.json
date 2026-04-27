@@ -1,0 +1,23 @@
+{
+  "name": "cfw-meting",
+  "version": "1.1.0",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "metowolf",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@meting/core": "^1.6.0",
+    "aes-js": "^3.1.2",
+    "hash.js": "^1.1.7",
+    "hono": "^4.10.3",
+    "lru-cache": "^11.2.2"
+  },
+  "devDependencies": {
+    "wrangler": "^4.50.0"
+  }
+}
